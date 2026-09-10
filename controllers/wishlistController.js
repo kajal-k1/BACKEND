@@ -1,6 +1,6 @@
 
 import mongoose from 'mongoose';
-import Wishlist from '../models/WishlistModel.js';
+import Wishlist from './models/WishlistModel.js';
 
 
 export const addToWishlist = async (req, res) => {
